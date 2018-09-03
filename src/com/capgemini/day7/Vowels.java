@@ -1,4 +1,4 @@
-package com.capgemini.day7.tests;
+package com.capgemini.day7;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -23,9 +23,34 @@ public class Vowels {
 			{
 				count=count+1;
 			}
+			}
+		}
+					
+		catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		return count;
+		
+	}
+	public static int countConsonents(File file)
+	{
+		
+		try(FileReader fileReader=new FileReader(file);
+				BufferedReader reader = new BufferedReader(fileReader);)
+		{
+			String s;
+			while( (s = reader.readLine()) != null)
+			for(int i=0;i<s.length();i++)
+			{
+				char c=s.charAt(i);
+			if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+			{
+//				count=count+1;
+			}
 			else
 			{
-				count1=count+1;
+				count1+=+1;
 			}
 			}
 		}
@@ -34,8 +59,7 @@ public class Vowels {
 		{
 			e.printStackTrace();
 		}
-		return count-1;
-		
+		return count1;
 	}
 	
 	

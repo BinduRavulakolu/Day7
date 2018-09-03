@@ -4,6 +4,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import com.capgemini.day7.DateFormat12;
+
 class DateFormat12Test {
 
 	@Test

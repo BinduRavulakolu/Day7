@@ -1,4 +1,4 @@
-package com.capgemini.day7.tests;
+package com.capgemini.day7;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

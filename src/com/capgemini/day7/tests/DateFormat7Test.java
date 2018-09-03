@@ -6,6 +6,8 @@ import java.text.ParseException;
 
 import org.junit.jupiter.api.Test;
 
+import com.capgemini.day7.DateFormat7;
+
 class DateFormat7Test {
 
 	@Test

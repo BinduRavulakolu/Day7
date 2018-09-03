@@ -1,4 +1,4 @@
-package com.capgemini.day7.tests;
+package com.capgemini.day7;
 
 public class DateFormat12 {
 
