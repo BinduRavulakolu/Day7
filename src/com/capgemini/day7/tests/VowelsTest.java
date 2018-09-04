@@ -13,8 +13,8 @@ class VowelsTest {
 	@Test
 	void test() {
 		File file=new File("C:\\Bindu\\String.txt");
-		assertEquals(16,Vowels.countVowels(file));
-//		assertEquals(20,Vowels.countConsonents(file));
+		assertEquals(10,Vowels.countVowels(file));
+		
 	}
 
 }

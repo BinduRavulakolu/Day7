@@ -74,7 +74,7 @@ public class Assignment {
 	public File getSubject() {
 		return file;
 	}
-	public void setSubject(String subject) {
+	public void setSubject(File subject) {
 		this.file = file;
 	}
 	public LocalDate getDate() {

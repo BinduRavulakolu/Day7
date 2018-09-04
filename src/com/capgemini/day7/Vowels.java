@@ -33,35 +33,6 @@ public class Vowels {
 		return count;
 		
 	}
-	public static int countConsonents(File file)
-	{
-		
-		try(FileReader fileReader=new FileReader(file);
-				BufferedReader reader = new BufferedReader(fileReader);)
-		{
-			String s;
-			while( (s = reader.readLine()) != null)
-			for(int i=0;i<s.length();i++)
-			{
-				char c=s.charAt(i);
-			if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
-			{
-//				count=count+1;
-			}
-			else
-			{
-				count1+=+1;
-			}
-			}
-		}
-					
-		catch(IOException e)
-		{
-			e.printStackTrace();
-		}
-		return count1;
-	}
-	
-	
+
 
 }
